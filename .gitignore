@@ -1,0 +1,34 @@
+# 環境變數（絕對不要上傳！）
+file.env
+.env
+*.env
+
+# 本地數據和模型（在 HF 上管理）
+models/
+backend/data/
+*.pt
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# 虛擬環境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
